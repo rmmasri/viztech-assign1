@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1</title>
+	<meta charset="utf-8">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container">
+		<div class="canvas"></div>
+		<div class="tooltip"></div>
+		<div class="dev-log"></div>
+		<div class="controls">
+			<!--include interactive elements here-->
+            <a href="#" class="button" id="button1">Button 1</a>
+            <a href="#" class="button" id="button2">Button 2</a>
+            <a href="#" class="button" id="button3">Button 3</a>
+            <form id="form1">
+                <input type="radio" id="radioinput"/>
+                <input type="checkbox" id="checkboxinput"/>
+                <input type="text" id="textinput"/>
+                <select id="selectinput">
+                    <option value="alpha">Alpha</option>
+                    <option value="beta">Beta</option>
+                </select>
+            </form>
+        </div>
+	</div><!--.container-->
+
+	<!--include scripts here-->
+    <script src="script/lib/jquery/jquery-1.11.1.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

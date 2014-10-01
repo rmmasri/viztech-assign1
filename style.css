@@ -1,0 +1,78 @@
+/* style.css */
+
+/* CSS reset
+ * remove browser defaults
+ */
+html,body,div,h1,h2,h3,h4,h5,ul,li,a,form{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.controls {
+    font-size: .85em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Layout here */
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container .canvas{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.container .dev-log{
+    margin: 0 auto 0 auto;
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    background: lightgray;
+    font-size: .85em;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.container.tooltip{
+    width: 150px;
+    padding: 15px;
+    background: yellow;
+    position: absolute;
+    visibility: hidden;
+}
+
+.container .controls{
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    bottom: 1%;
+    left: 15%;
+}
+.controls .button{
+    display: block;
+    background: lightgreen;
+    width: 150px;
+    height: 75%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    margin: 1rem;
+    position: relative;
+}
