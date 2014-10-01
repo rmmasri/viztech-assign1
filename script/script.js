@@ -7,7 +7,7 @@ $(".controls .button").on("click",function(d){
         .append("<p>Clicked " + idValue + "</p>");
 });
 
-$(".button,:radio,:checkbox").on("change",function(e){
+$(":radio,:checkbox").on("change",function(e){
     var idValue = $(e.target).attr('id');
 
     $('.dev-log')
